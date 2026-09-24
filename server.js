@@ -1,6 +1,7 @@
 const express = require("express")
 const fs = require("fs")
 const path = require("path")
+const API_URL = "http://127.0.0.1:3000/usos";
 
 const caminhoArquivo = path.join(__dirname, "dados.json")
 let usos = require(caminhoArquivo)
@@ -96,13 +97,34 @@ const alterarUso = (req, res) => {
     }
 }
 
+app.get("/usos", (req, res) => {
+    let resultado = usos;
+    
+    if (req.query.nivel_risco) {
+        resultado = resultado.filter(u => u.nivel_risco.toLowerCase() === req.query.nivel_risco.toLowerCase());
+    }
+    if (req.query.tipo) {
+        resultado = resultado.filter(u => u.tipo.toLowerCase() === req.query.tipo.toLowerCase());
+    }
+    res.json(resultado);
+});
+
 app.get("/usos", mostrarUsos)
 app.get("/usos/:id", mostrarUsoPorId)
 app.post("/usos", novoUso)
 app.delete("/usos/:id", excluirUso)
 app.put("/usos/:id", alterarUso)
 
+async function buscarUsos() {
+    const resposta = await fetch("http://127.0.0.1:3000/usos");
+    const dados = await resposta.json();
+    console.log(dados);
+}
+
+buscarUsos();
+
 const porta = 3000
 app.listen(porta, () => {
     console.log(`Servidor rodando em: http://127.0.0.1:${porta}`)
+    
 })

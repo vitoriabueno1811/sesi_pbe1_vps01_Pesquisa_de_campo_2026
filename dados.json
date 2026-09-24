@@ -43,5 +43,15 @@
     "tecnologia": "IA bancária",
     "nivel_risco": "Alto",
     "possui_revisao_humana": false
+  },
+  {
+    "id": 6,
+    "id ": "6",
+    "sistema": "Listagem de Compras",
+    "tipo": "pessoal",
+    "finalidade": "Pesquisar preços das melhores mercadorias",
+    "tecnologia": "IA de Compras",
+    "nivel_risco": "Médio",
+    "possui_revisao_humana": "false"
   }
 ]
