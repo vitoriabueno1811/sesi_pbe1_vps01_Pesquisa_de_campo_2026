@@ -1,0 +1,17 @@
+{
+  "name": "vps01-Desafio 02",
+  "version": "1.0.0",
+  "description": "Pesquisa de Campo",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "vitoriabueno1811",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

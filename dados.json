@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "sistema": "Assistente de atendimento",
+    "tipo": "empresa",
+    "finalidade": "Responder dúvidas de clientes",
+    "tecnologia": "IA",
+    "nivel_risco": "Médio",
+    "possui_revisao_humana": true
+  },
+  {
+    "id": 2,
+    "sistema": "Corretor de redações",
+    "tipo": "escola",
+    "finalidade": "Fornecer notas sobre gramática",
+    "tecnologia": "IA para gerar notas em padão ENEM",
+    "nivel_risco": "Baixo",
+    "possui_revisao_humana": true
+  },
+  {
+    "id": 3,
+    "sistema": "Atendimento Médico",
+    "tipo": "empresa",
+    "finalidade": "Gerenciar os pacientes de acordo com os sintomas",
+    "tecnologia": "Classificação",
+    "nivel_risco": "Alto",
+    "possui_revisao_humana": true
+  },
+  {
+    "id": 4,
+    "sistema": "Organizador de tarefas",
+    "tipo": "pessoal",
+    "finalidade": "Sugerir rotinas diárias e cronogramas de estudo",
+    "tecnologia": "IA",
+    "nivel_risco": "Baixo",
+    "possui_revisao_humana": false
+  },
+  {
+    "id": 5,
+    "sistema": "Crédito automatizado",
+    "tipo": "empresa",
+    "finalidade": "Aprovar ou negar empréstimos",
+    "tecnologia": "IA bancária",
+    "nivel_risco": "Alto",
+    "possui_revisao_humana": false
+  }
+]
