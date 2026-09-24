@@ -33,10 +33,13 @@ Projeto desenvolvido para cadastrar e gerenciar diferentes usos de Inteligência
 
 - **BUSCAR**
 ![BUSCAR](./Prints/Print05.png)
+
+-**DELETE**
+![DELETE](/Prints/Print03.png)
 ---
 
 # Cliente 
 
-![INDEX](index.png)
+![INDEX](/Prints/Index.png)
 
-![Resposta](Resposta.png)
+![Resposta](/Prints/Resposta.png)
