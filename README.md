@@ -34,7 +34,7 @@ Projeto desenvolvido para cadastrar e gerenciar diferentes usos de Inteligência
 - **BUSCAR**
 ![BUSCAR](./Prints/Print05.png)
 
--**DELETE**
+- **DELETE**
 ![DELETE](/Prints/Print03.png)
 ---
 
